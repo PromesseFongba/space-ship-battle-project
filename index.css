@@ -1,0 +1,102 @@
+body{
+  width: auto;
+  height: auto;
+}
+  
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-image: url("images/space.gif");
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+}
+
+
+
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-image: url(images/space.gif);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#inside-title {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+}
+
+#outside-main, #inside-main  {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+
+
+}
+nav {
+  
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  margin-right: 0.4px;
+  color: white;
+  
+  
+}
+section{
+  
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+
+  
+  
+}
+aside {
+  width: 30%;
+  height: 80%;
+  margin-left: 0.4%;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+
+h1{
+  color:blue;
+  text-align: center;
+}
+
+
+button{
+  background-color: red;
+  box-shadow: 20px;
+  border-radius: 35%;
+}
+
+footer{
+  bottom: 10px;
+}
+#explosion{
+  background-image: url('images/explosion.png');
+}
